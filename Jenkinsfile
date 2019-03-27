@@ -1,7 +1,7 @@
 pipeline {
   environment {
     registry = "ravis85/repository"
-    registryCredential = 'mydockerhubacct'
+    registryCredential = 'ravis85'
     dockerImage = ''
   }
   agent any
